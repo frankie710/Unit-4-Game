@@ -1,0 +1,26 @@
+
+body{
+    height: 100%;
+    width: 100%;  
+    font-size: 40px;
+    background-color: blanchedalmond;
+}
+
+div{
+	width: 100%;
+}
+
+p, h1, h2, span{
+	font-weight: bold;
+    text-align: center;
+}
+
+.column {
+    float: left;
+    width: 20%;
+    padding: 5px;
+  }
+  
+
+
+
