@@ -1,6 +1,6 @@
 $(document).ready(function(){
     
-    var randomValue = Math.floor(Math.random() * 130 + 17) //this is to generate a random number
+    var randomValue = Math.floor(Math.random() * 130 + 17) 
     $('#scoreCount').text(randomValue);
 
 
@@ -15,6 +15,7 @@ $(document).ready(function(){
 
 $('#winsTracker').text(wins);
 $('#lossTracker').text(losses);
+$('#scoreTracker').text(totalScore);
 
 
     function reset(){
